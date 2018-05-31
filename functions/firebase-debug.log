@@ -1,0 +1,50 @@
+[debug] [2018-05-31T07:59:26.420Z] ----------------------------------------------------------------------
+[debug] [2018-05-31T07:59:26.420Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tquocminh\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-05-31T07:59:26.420Z] CLI Version:   3.18.5
+[debug] [2018-05-31T07:59:26.420Z] Platform:      win32
+[debug] [2018-05-31T07:59:26.420Z] Node Version:  v7.7.3
+[debug] [2018-05-31T07:59:26.420Z] Time:          Thu May 31 2018 14:59:26 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-05-31T07:59:26.420Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-31T07:59:26.435Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-31T07:59:26.435Z] > authorizing via signed-in user
+[debug] [2018-05-31T07:59:26.435Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-31T07:59:26.435Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/pbiJyp1rAgHnymScti15qfSkJt6Wof4_ej2k_0H9DlY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu May 31 2018 14:59:26 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-05-31T07:59:26.669Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-31T07:59:26.700Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myvault-id8  
+  
+ Thu May 31 2018 14:59:26 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-05-31T07:59:27.636Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-31T07:59:27.636Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myvault-id8/tokens  
+  
+ Thu May 31 2018 14:59:27 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-05-31T07:59:28.479Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-31T07:59:28.479Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myvault-id8  
+  
+ Thu May 31 2018 14:59:28 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-05-31T07:59:29.586Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Java-Ember-Training\NodeJS\demo-nodejs-app'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-05-31T07:59:46.204Z] Fetching environment
+[debug] [2018-05-31T07:59:46.251Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/20849142787:getServerAppConfig  
+  
+ Thu May 31 2018 14:59:46 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-05-31T07:59:46.251Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/20849142787/clients/_:getWebAppConfig  
+  
+ Thu May 31 2018 14:59:46 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-05-31T07:59:47.016Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-31T07:59:47.016Z] Starting @google-cloud/functions-emulator
+[debug] [2018-05-31T07:59:47.686Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-05-31T07:59:55.939Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/myvault-id8/us-central1/app
