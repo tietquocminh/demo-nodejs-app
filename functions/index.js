@@ -1,5 +1,6 @@
 const functions = require('firebase-functions');
 const express = require('express');
+const credentials = require('./env');
 const mongoClient = require('mongodb').MongoClient;
 
 const JSONAPISerializer = require('json-api-serializer');
@@ -28,7 +29,7 @@ app.get('/employees', (request, response) => {
         }
     });
 
-    mongoClient.connect('mongodb+srv://tietquocminh:12345678xZX@cluster0-gsl2m.mongodb.net/', function (err, db) {
+    mongoClient.connect(`mongodb+srv://${credentials.mongoDBCredential.userId}:${credentials.mongoDBCredential.password}@cluster0-gsl2m.mongodb.net/`, function (err, db) {
         if (err) {
             throw err;
         } else {
